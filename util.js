@@ -1,0 +1,7 @@
+define([], function() {
+    return {
+        formatNum: function(n) {
+            return n<10? '0'+n : n.toString();
+        }
+    }
+});
